@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke and Luigi's Italian Mad Libs Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lukey and Luigi's Italian Mad Libs Game</h1>
+        <form id="madlib-form">
+            <label for="adjective">Adjective:</label>
+            <input type="text" id="adjective" name="adjective" required><br>
+
+            <label for="noun">Noun:</label>
+            <input type="text" id="noun" name="noun" required><br>
+
+            <label for="verb">Verb (but in the past tense):</label>
+            <input type="text" id="verb" name="verb" required><br>
+
+            <label for="adverb">Adverb:</label>
+            <input type="text" id="adverb" name="adverb" required><br>
+
+            <button type="submit">Generate Story</button>
+        </form>
+
+        <div id="story" class="hidden">
+            <h2>Your Mad Lib Story</h2>
+            <p id="story-text"></p>
+            <button id="reset">Play Again</button>
+        </div>
+    </div>
+
+    <script src=""></script>
+</body>
+</html>
